@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin: 0px 32px;
+  padding: 4px 32px 0px 32px;
 }
 
 .title {
@@ -24,11 +24,28 @@ body {
   position: absolute;
   top: 44px;
 }
+.title-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.haguta1 {
+  width: 83px;
+  height: 112px;
+  float: right;
+}
 
 .title-block {
   position: relative;
   display: flex;
-  margin-bottom: 35px;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 .more-about {
@@ -44,7 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  row-gap: 0px;
+  row-gap: 4px;
 }
 
 .insta-title {
@@ -67,5 +84,6 @@ body {
 .insta-block {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  align-items: flex-end;
+  row-gap: 4px;
 }
