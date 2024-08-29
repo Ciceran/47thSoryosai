@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  padding: 4px 32px 0px 32px;
+  padding: 4px 30px 24px 30px;
 }
 
 .title {
@@ -134,3 +134,32 @@ body {
   flex-direction: column;
   row-gap: 8px;
 }
+footer {
+  background-color: #E6F3FF;
+  padding: 16px 30px 16px 30px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.footer-list {
+  font-size: 14px;
+  font-weight: bold;
+  color: #313131;
+}
+.about-soryosai {
+  margin: 8px 0px 12px 0px;
+}
+.footer-item  {
+  list-style: none;
+}
+.soryosai-logo {
+  width: 140px;
+  height: 61px;
+}
+.seishin-logo {
+  width: 268px;
+  height: 41px;
+}
+
