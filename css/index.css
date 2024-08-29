@@ -10,7 +10,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 32px;
   padding: 4px 30px 24px 30px;
 }
 
