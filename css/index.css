@@ -24,12 +24,12 @@ body {
   position: absolute;
   top: 44px;
 }
-.title-top {
+.title-1 {
   display: flex;
   justify-content: space-between;
 }
 
-.title-left {
+.title-2 {
   display: flex;
   flex-direction: column;
   row-gap: 38px;
@@ -50,8 +50,9 @@ body {
 
 .more-about {
   color: #0056FC;
+  text-decoration: none;
 }
-.body-block {
+.about-1 {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
@@ -69,11 +70,19 @@ body {
   font-size: 24px;
 }
 
-.insta-top {
+.insta-1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   column-gap: 8px;
+}
+
+.insta-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 12px;
+  flex-grow: 1;
 }
 
 .insta-logo {
@@ -84,12 +93,44 @@ body {
 .insta-block {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   row-gap: 4px;
 }
 
-.insta-body {
+.insta-0 {
+  flex-grow: 1;
+}
+.insta-link-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.onigiri {
+  width: 40px;
+  height: 34px;
+}
+
+.link-window {
+  width: 16px;
+  height: 16px;
+}
+
+.menu-list {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  padding-left: calc((100% - 311px) / 2);
+}
+
+.menu-ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }
