@@ -162,6 +162,19 @@ body {
   width: calc(100vw - 60px);
 }
 
+.time-others {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #555555;
+  color: #444444;
+  border-radius: 12px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
 footer {
   background-color: #E6F3FF;
   padding: 16px 24px 16px 30px;
