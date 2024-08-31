@@ -26,9 +26,20 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/index.css" />
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"> -->
+    <script>
+      WebFontConfig = {
+        google: {families: ['Noto Sans JP']}
+      };
+      (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
   </head>
   <body>
     <img class="poster" src="/img/top.jpg" alt="第47回創陵祭ポスター" />
@@ -285,5 +296,5 @@
       <img class="seishin-logo" src="/img/seisin_logo.svg">
     </footer>
   </body>
-  <script src="/js/index.js"></script>
+  <script src="/js/index.js" defer></script>
 </html>
