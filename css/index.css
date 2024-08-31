@@ -1,6 +1,7 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .poster {
@@ -11,7 +12,7 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 20px;
   padding: 4px 30px 24px 30px;
 }
 
@@ -46,7 +47,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .more-about {
@@ -56,13 +57,13 @@ body {
 .about-1 {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 0px;
 }
 
 .about-block {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   row-gap: 4px;
   margin-bottom: 16px;
 }
@@ -113,6 +114,10 @@ body {
   list-style: none;
   font-weight: bold;
   font-size: 23px;
+}
+
+.item-h3 {
+  font-size: 24px;
 }
 
 .onigiri {
@@ -192,13 +197,13 @@ footer {
   margin-top: 8px;
 }
 .about-soryosai {
-  margin: 8px 0px 12px 0px;
+  margin: 0px 0px 8px 0px;
 }
 .footer-item  {
   list-style: none;
 }
 .soryosai-logo {
-  width: 140px;
+  width: 139px;
   height: 61px;
 }
 .seishin-logo {
@@ -243,4 +248,16 @@ hr {
 .medabon-hr {
   border-top: 1px solid #cacaca;
   margin: 2px 0px 8px 0px;
+}
+
+.haguta-img {
+  width: calc(100vw - 80px);
+  height: 100%;
+}
+
+.haguta-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
