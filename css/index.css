@@ -1,7 +1,8 @@
-body {
+.contents {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  background-color: #FFF;
 }
 
 .poster {
@@ -260,4 +261,30 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #b2b2b2;
+  }
+  .contents {
+    width: 432px; 
+    margin: 0px 100px 0px calc(100vw - 532px);
+    background-color: #FFF;
+  }
+
+  .poster {
+    width: 100%;  
+    height: calc(432px * 1.42);
+  }
+
+  .haguta-img {
+    width: calc(432px - 80px);
+    height: 100%;
+  }
+
+  .time-item {
+    width: calc(432px - 60px);
+  }
+
 }
