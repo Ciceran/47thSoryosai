@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="email=no,telephone=no,address=no" />
+    <meta name="robots" content="all" />
+
+    <title>第47回創陵祭 企画一覧</title>
+    <meta name="description" content="第47回創陵祭の企画一覧です。" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H6BW5JR43C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-H6BW5JR43C');
+    </script>
+
+    <!--reset css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/timatable.css" />
+    
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    
+    <!--非同期でフォント読み込むだとめちゃ良い-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet"> -->
+    <script>
+      WebFontConfig = {
+        google: {families: ['Noto Sans JP:500,700']}
+      };
+      (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <div class="bg">
+      <img class="bg-img" src="/img/bg-image.png" style="pointer-events: none;" alt="背景画像"/>
+      <img class="bg-img2" src="/img/bg-image2.jpeg" style="pointer-events: none;"  alt="背景画像"/>
+      <img class="logo" src="/img/soryosai_pop.png" alt="第47回創陵祭ロゴ"/>
+
+      <div class="bg-menu">
+        <ul class="bg-ul">
+          <li class="bg-li li1"><a href="index.html">トップ</a></li>
+          <li class="bg-li"><a href="projects.html" target="_blank">企画一覧</a></li>
+          <li class="bg-li"><a href="timetable.html" target="_blank">タイムテーブル</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="main" style="padding-top: 16px;row-gap: 32px;margin-bottom: 16px;">
+        <header style="display: flex;justify-content: space-between;align-items: flex-start;">
+          <div class="timatable-title">
+            <h1 class="h1title" style="font-weight: bold;font-size: 32px;">タイムテーブル</h1>
+            <h1 style="font-weight: bold;font-size: 20px;">めだボン・講堂・AVR</h1>
+          </div>
+          <a href="index.html" class="more-about">
+            <div class="back-top" style="display: flex;align-items: center;margin-top: 5px;">
+              <p style="font-size: 20px;" target="_blank">TOP</p>
+              <img src="img/link_arrow.svg" style="width: 16px;height: 15px;padding-top: 1px;">
+            </div>
+          </a>
+        </header>
+        
+        
+        <div class="timetable">
+          <h2 class="h2title medabon">めだボンタイムテーブル</h2>
+          <hr class="medabon-hr">
+          <div class="timelistblock" id="timelistblock">
+            <ul class="time-list" id="1">
+              <div class="timetable-top">
+                <h5 class="medabon-title">１日目　13:30~</h5>
+                <button id="next-button" style="height: 20px;">
+                  <img src="/img/arrow.svg" style="height:20px;width:20px;fill:#000;margin-right:8px;">
+                </button>
+              </div>
+              <li style="list-style: none;">
+                <h5 class="time-others">オープニング</h5>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:35~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">少林lovers</h5>
+                  <p class="music">紅蓮の弓矢/HIP/イマジネーション/FLY HIGH!!/Take A Hint/plot twist/Fact Check</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:42~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">xiiris*</h5>
+                  <p class="music">Love So Sweet/“Yes or Yes”/FIESTA</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:49~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">脳みそ筋肉ズ</h5>
+                  <p class="music">恋するフォーチュンクッキー/Make you happy</p>
+                </div>
+              </li>
+              <li style="list-style: none;">
+                <h5 class="time-others">休憩</h5>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:05~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">MASA</h5>
+                  <p class="music">未来予想図Ⅱ</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:12~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">FJC</h5>
+                  <p class="music">Lucky Girl Syndrome/OMG</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:19~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">因幡の白兎</h5>
+                  <p class="music">Rise/Supernova/Hit</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:24~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">手話’s</h5>
+                  <p class="music">Mela!/Subtitle/ビリミリオン/キューティーハニー/One Love/恋</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:31~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">ABn0ma1</h5>
+                  <p class="music">Seven/S-Class</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="time-list" id="2">
+              <div class="timetable-top">
+                <h5 class="medabon-title">２日目　12:30~</h5>
+                <img src="/img/arrow.svg" id="back-button" style="transform:rotate(180deg);height:20px;width:20px;fill:#000;margin-right:8px;">
+              </div>
+              <li style="list-style: none;"></li>
+                <h5 class="time-others">オープニング</h5>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">12:35~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">Stella</h5>
+                  <p class="music">BATTER UP/Kill This Love/Drama</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">12:42~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">Hanuel</h5>
+                  <p class="music">Monsters/SHEESH/Magnetic/What is Love?-Japanese ver.-/アイドルライフスターターパック/Shut Down</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">12:49~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">Ruggers 46</h5>
+                  <p class="music">可愛くてごめん/PERFECT HUMAN</p>
+                </div>
+              </li>
+              <li style="list-style: none;">
+                <h5 class="time-others">休憩</h5>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:05~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">佐藤俊続</h5>
+                  <p class="music">青春サイクリング</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:12~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">なんでもいいよ。</h5>
+                  <p class="music">Naatu Naatu/NAPAL BAJI</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:19~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">ずんぐりむっくりーず</h5>
+                  <p class="music">青春アミーゴ/VERY NICE</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">13:26~</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">Philia</h5>
+                  <p class="music">Pretty U/The Feels/breakthrough/ヘビーローテーション</p>
+                </div>
+            </ul>
+          </div>
+        </div>
+        <!-- 講堂タイムテーブル -->
+        <div class="timetable">
+          <h2 class="h2title medabon">講堂タイムテーブル</h2>
+          <hr class="medabon-hr">
+          <div class="timelistblock" id="timelistblock2">
+            <ul class="time-list" id="1">
+              <div class="timetable-top">
+                <h5 class="medabon-title">１日目　10:00~15:30</h5>
+                <button id="next-button2" style="height: 20px;">
+                  <img src="/img/arrow.svg" style="height:20px;width:20px;fill:#000;margin-right:8px;">
+                </button>
+              </div>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">10:00~11:00</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">ちはやふる</h5>
+                  <p class="music">H1-3　大半が初心者のチームで東京都大会優勝を目指す千早の行方は...？</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">12:30~14:30</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">演劇部 創陵祭公演</h5>
+                  <p class="music">演劇部　同じ塾に通う6人の高校生が作る青春の物語をお届けします。</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:30~15:30</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">ちはやふる</h5>
+                  <p class="music">H1-3　大半が初心者のチームで東京都大会優勝を目指す千早の行方は...？</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="time-list" id="2">
+              <div class="timetable-top">
+                <h5 class="medabon-title">２日目　9:30~15:00</h5>
+                <img src="/img/arrow.svg" id="back-button2" style="transform:rotate(180deg);height:20px;width:20px;fill:#000;margin-right:8px;">
+              </div>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title"><span style="visibility: hidden;">1</span>9:30~11:30</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">演劇部 創陵祭公演</h5>
+                  <p class="music">演劇部　同じ塾に通う6人の高校生が作る青春の物語をお届けします。</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">11:30~12:30</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">ちはやふる</h5>
+                  <p class="music">H1-3　大半が初心者のチームで東京都大会優勝を目指す千早の行方は...？</p>
+                </div>
+              </li>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">14:00~15:00</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">中学オーケストラ</h5>
+                  <p class="music">音楽部　中学主体のオーケストラを演奏します。是非聞きに来て下さい。</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- AVRタイムテーブル -->
+        <div class="timetable">
+          <h2 class="h2title medabon">AVRタイムテーブル</h2>
+          <hr class="medabon-hr">
+          <div class="timelistblock" id="timelistblock">
+            <ul class="time-list" id="1">
+              <div class="timetable-top">
+                <h5 class="medabon-title">１日目のみ　10:00~15:30</h5>
+              </div>
+              <li class="time-item">
+                <div>
+                  <h6 class="time-title">10:00~15:30</h6>
+                </div>
+                <div class="discription">
+                  <h5 class="time-title">La Boheme</h5>
+                  <p class="music">音楽部　涼しい部屋で素敵な演奏と共にあなたも楽しみましょう！</p>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-top">
+          <img class="soryosai-logo" src="/img/soryosai1.png">
+          <ul class="footer-list">
+            <a href="index.html"><li class="footer-item about-soryosai">トップ</li></a>
+            <li class="footer-item about-soryosai" style="color: #b4b4b4;">パンフレット[PDF]</li>
+            <a href="projects.html" target="_blank"><li class="footer-item">企画一覧</li></a>
+            <a href="timetable.html" target="_blank"><li class="footer-item">タイムテーブル</li></a>
+            <li class="footer-item" style="color: #b4b4b4;">ポスターコンテスト</li>
+            <li class="footer-item" style="color: #b4b4b4;">フロアマップ</li>
+          </ul>
+        </div>
+        <img class="seishin-logo" src="/img/seisin_logo.svg">
+      </footer>
+    </div>
+  </body>
+  <script src="/js/index.js" defer></script>
+</html>
