@@ -63,9 +63,10 @@
     <div class="contents">
       <div class="main" style="padding-top: 16px;row-gap: 32px;margin-bottom: 16px;">
         <header style="display: flex;justify-content: space-between;align-items: flex-start;">
-          <div class="timatable-title">
-            <h1 class="h1title" style="font-weight: bold;font-size: 32px;">タイムテーブル</h1>
-            <h1 style="font-weight: bold;font-size: 20px;">めだボン・講堂・AVR</h1>
+          <div class="timatable-title" style="position: relative;">
+            <img src="/img/f5.png" style="position: absolute;bottom: -12px;left: 168px;width: 96px;transform: rotate(-12deg);z-index: 90;">
+            <h1 class="h1title" style="font-weight: bold;font-size: 32px;z-index: 101;">タイムテーブル</h1>
+            <h1 style="position:relative;font-weight: bold;font-size: 20px;z-index: 102;">めだボン・講堂・AVR</h1>
           </div>
           <a href="index.html" class="more-about">
             <div class="back-top" style="display: flex;align-items: center;margin-top: 5px;">
@@ -76,7 +77,8 @@
         </header>
         
         
-        <div class="timetable">
+        <div class="timetable" style="position: relative;">
+          
           <h2 class="h2title medabon" style="color:#f2868a;">めだボンタイムテーブル</h2>
           <hr class="medabon-hr">
           <div class="timelistblock" id="timelistblock">
@@ -243,7 +245,8 @@
           </div>
         </div>
         <!-- 講堂タイムテーブル -->
-        <div class="timetable">
+        <div class="timetable" style="position: relative;">
+          <img src="/img/f2.png" style="position: absolute;top: 0px;right: 0px;width: 48px;transform: rotate(12deg);z-index: 90;">
           <h2 class="h2title medabon" style="color:#f2868a;">講堂タイムテーブル</h2>
           <hr class="medabon-hr">
           <div class="timelistblock" id="timelistblock2">
@@ -318,7 +321,8 @@
           </div>
         </div>
         <!-- AVRタイムテーブル -->
-        <div class="timetable">
+        <div class="timetable" style="position: relative;">
+          <img src="/img/f7.png" style="position: absolute;top: 0px;right: 0px;width: 48px;transform: rotate(12deg);z-index: 90;">
           <h2 class="h2title medabon" style="color:#f2868a;">AVRタイムテーブル</h2>
           <hr class="medabon-hr">
           <div class="timelistblock" id="timelistblock">
@@ -340,11 +344,14 @@
           </div>
         </div>
       </div>
-      <footer>
+      <footer style="position: relative;">
+        <img src="/img/f5.png" style="position: absolute;top: -24px;left: 16px;width: 96px;transform: rotate(184deg);">
+        <img src="/img/f3.png" style="position: absolute;top: -24px;right: 16px;width: 72px;transform: rotate(4deg);z-index: 101;">
+        <img src="/img/line.svg" style="position: absolute;top: -5px;right: 0px;width: 80%;transform: rotate(180deg);">
         <div class="footer-top">
           <a href="index.html" style="height: 61px;"><img class="soryosai-logo" src="/img/soryosai1.png"></a>
           <ul class="footer-list">
-            <a href="index.html""><li class="footer-item about-soryosai">トップページ</li></a>
+            <a href="index.html"><li class="footer-item about-soryosai">トップページ</li></a>
             <a href="projects.html" target="_blank"><li class="footer-item">企画一覧</li></a>
             <a href="timetable.html" target="_blank"><li class="footer-item">タイムテーブル</li></a>
             <li class="footer-item" style="color: #b4b4b4;">ポスターコンテスト</li>
